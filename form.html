@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form</title>
+    </head>
+    <body>
+        <form  novalidate>
+            <label>name</label><input type="text" placeholder="enter your name"  maxlength="20"  autofocus required><br>
+            <label>password</label><input  type="password"><br>
+            <label>email</label><input type="email"><br>
+            <label>phone</label><input type="phone"><br>
+            <input type="number" min="1" max="50" step="2"><br>
+            <input type="radio" name="gender">men
+            <input type="radio" name="gender">women
+            <input type="radio" name="gender">other <br>
+
+            <label>range</label>
+            <input type="range" min="500" max="5000" step="500"  ><br>
+            <label>DOB</label>
+            <input type="date"><br>  
+            
+            <label>time</label>
+            <input type="time"><br>
+
+
+            <label>color</label>
+            <input type="color"><br>
+
+            <input type="checkbox" name="hobby">sleeping
+            <input type="checkbox" name="hobby">eating
+            <input type="checkbox" name="hobby">singing
+            <input type="checkbox" name="hobby">Dancing
+            <input type="checkbox" name="hobby">playing<br>
+        
+           <select>
+            <option disabled selected>course you opted for</option>
+               <option> python</option>
+               <option>Android</option>
+               <option>javascript</option>
+               <option>java</option>
+          </select><br>
+
+
+             <input list="Course" type="text" placeholder="Enter your  course">
+             <datalist id="Course">
+                <option> python</option>
+               <option>Android</option>
+               <option>javascript</option>
+               <option>java</option>
+             </datalist><br>
+
+             <textarea cols="15" rows="5"></textarea><br>
+             <input type="file" multiple accept="jpg,png,gif,svg,bmp"> <br>
+             <input type="submit" value="Register">
+        </form>    
+ </body>        
+</html>

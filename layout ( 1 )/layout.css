@@ -1,0 +1,13 @@
+.red{
+    color: rgb(202, 84, 84);
+}
+
+
+.green{ 
+    color: rgb(29, 216, 216); background-color: black;
+} 
+
+.border{
+    border: 10px solid;
+}
+
